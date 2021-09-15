@@ -37,3 +37,10 @@
         url('../fonts/lato-v20-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/lato-v20-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
  }
+/* говорят, такой способ настройки border-box более производительный */
+ html{
+    box-sizing: border-box;
+ }
+ *, *::before, *::after {
+    box-sizing: inherit;
+ }
