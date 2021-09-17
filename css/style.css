@@ -105,6 +105,45 @@
    height: 100vh;
    background: url(/img/intro_bg.jpg) no-repeat center;
    background-size: cover;
+   padding-top: 263px;
 }
 
+.intro_title {
+   margin-bottom: 22px;
+   max-width: 619px;
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 60px;
+   color: #FFFFFF;
+}
+
+.intro_subtitle {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   max-width: 546px;
+   color: #FFFFFF;
+   margin-bottom: 59px;
+}
+
+.serach_form_field{
+   width: 297px;
+   background-color: transparent;
+   background: url(/img/circle.svg) no-repeat left top;
+   border: 0;
+   background-size: 20px;
+   border-bottom: 2px solid #BFC0C5;
+   margin-right: 60px;
+   padding-left: 43px;
+   padding-bottom: 22px;
+   font-weight: 500;
+   font-size: 18px;
+   color: #fff;
+}
+
+.serach_form_field::placeholder{
+   font-weight: 500;
+   font-size: 18px;
+   color: #fff;
+}
 /*  конец стилей блока intro */
