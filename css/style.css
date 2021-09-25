@@ -99,7 +99,7 @@
     width: 100%;
  }
 
- .header_wrapper {
+ .header__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -107,26 +107,26 @@
     padding-top: 56px;
  }
 
- .header_list {
+ .header__list {
     display: flex;
     flex-wrap: wrap;
  }
 
- .header_item {
+ .header__item {
     margin-right: 82px;
  }
-.header_item:last-child{
+.header__item:last-child{
    margin-right: 0;
 }
 
-.header_link {
+.header__link {
    font-size: 18px;
    line-height: 24px;
    color: #fff;
    text-decoration: none;
 }
 
-.header_link:hover, .header_link:focus, .header_link:active {
+.header__link:hover, .header__link:focus, .header__link:active {
    opacity: 75%;
    border-bottom: 2px solid #ecebeb;
    padding-bottom: 3px;
@@ -142,7 +142,7 @@
    padding-bottom: 223px ;
 }
 
-.intro_title {
+.intro__title {
    margin-bottom: 22px;
    max-width: 619px;
    font-weight: 500;
@@ -151,7 +151,7 @@
    color: #FFFFFF;
 }
 
-.intro_subtitle {
+.intro__subtitle {
    font-weight: normal;
    font-size: 16px;
    line-height: 24px;
@@ -160,7 +160,7 @@
    margin-bottom: 59px;
 }
 
-.serach_form_field{
+.serach__form__field{
    width: 297px;
    background-color: transparent;
    background: url(/img/circle.svg) no-repeat left top;
@@ -175,13 +175,13 @@
    color: #fff;
 }
 
-.serach_form_field::placeholder{
+.serach__form__field::placeholder{
    font-weight: 500;
    font-size: 18px;
    color: #fff;
 }
 
-.search_form_submit{
+.search__form__submit{
    padding: 15px 30px; 
    text-transform: uppercase;
    font-weight: 500;
@@ -191,7 +191,7 @@
    border: 0;
 }
 
-.search_form_submit:hover, .search_form_submit:active, .search_form_submit:focus {
+.search__form__submit:hover, .search__form__submit:active, .search__form__submit:focus {
    background-color:#1057b4;
 }
 /*  конец стилей блока intro */
@@ -202,7 +202,7 @@
    margin-bottom: 131px;
 }
 
-.benefits_wrap{
+.benefits__wrap{
    max-width: 1262px;
    background-color: #fff;
    margin: 0 auto;
@@ -211,7 +211,7 @@
    padding-bottom: ;
 }
 
-.benefits_title{
+.benefits__title{
    width: 100%;
    font-weight: 500;
    font-size: 35px;
@@ -225,7 +225,7 @@
    border: none;
 }
 
-.benefits_cards{
+.benefits__cards{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-column-gap: 55px;
@@ -233,22 +233,22 @@
    
 }
 
-.benefits_card {
+.benefits__card {
    grid-column: span 1;
    margin-bottom: 112px;
 
 }
 
-.benefits_card-pic{
+.benefits__card-pic{
    margin-bottom: 37px;
    min-width: 66px;
 }
 
-.benefits_card-thumb{
+.benefits__card-thumb{
    display: block;
 }
 
-.benefits_card-title{
+.benefits__card-title{
    font-weight: 500;
    font-size: 18px;
    line-height: 24px;
@@ -256,13 +256,13 @@
 
 }
 
-.benefits_card-desc{
+.benefits__card-desc{
    font-size: 16px;
    line-height: 24px;
    margin-bottom: 39px;
 }
 
-.benefits_card-more{
+.benefits__card-more{
    display: inline-block;
    padding-right: 59px;
    font-size: 16px;
@@ -273,7 +273,7 @@
    transition: .2s all;
 }
 
-.benefits_card-more:focus, .benefits_card-more:hover {
+.benefits__card-more:focus, .benefits__card-more:hover {
    background: url(/img/arrow-icon.svg) no-repeat right center;
 }
 
@@ -286,7 +286,7 @@
    margin-bottom: 131px;
 }
 
-.places_caption {
+.places__caption {
    display: flex;
    flex-wrap: wrap;
    align-items: center;
@@ -295,7 +295,7 @@
 
 }
 
-.places_view-all{
+.places__view-all{
    padding-right: 59px;
    font-weight: normal;
    font-size: 16px;
@@ -306,29 +306,29 @@
    
 }
 
-.places_view-all:hover, .places_view-all:focus {
+.places__view-all:hover, .places__view-all:focus {
    opacity: .55;
    
 }
 
-.places_title {
+.places__title {
    margin-right: 15px;
 
 }
 
 
-.places_cards{
+.places__cards{
    display: grid;
    grid-template-columns: repeat(6, 1fr);
    grid-gap: 10px;
 
 }
-.places_card{
+.places__card{
    position: relative;
    overflow: hidden;
 }
 
-.places_card::after{
+.places__card::after{
    display: block;
    content: "";
    width: 100%;
@@ -341,12 +341,12 @@
 
 }
 
-.places_card:hover .places_card-pic{
+.places__card:hover .places__card-pic{
    transform: scale(1.1);
 
 }
 
-.places_card-title{
+.places__card-title{
    font-weight: bold;
    font-size: 50px;
    line-height: 60px;
@@ -359,34 +359,34 @@
 
 }
 
-.places_card-size-lg{
+.places__card-size-lg{
    grid-column: span 3 ;
 }
 
-.places_card-size-sm{
+.places__card-size-sm{
    grid-column: span 2 ;
 }
 
 
 
-.places_card-pic{
+.places__card-pic{
    width: 100%;
    
    transition: .25s all;
 }
 
-.places_card-pic-size-lg{
+.places__card-pic-size-lg{
    height: 354px;
    object-fit: cover;
 }
 
-.places_card-pic-size-sm{
+.places__card-pic-size-sm{
    height: 283px;
    object-fit: cover;
 
 }
 
-.places_card-link{
+.places__card-link{
    position: absolute;
    top: 0;
    left: 0;
@@ -396,3 +396,12 @@
 }
 
 /* places style end */
+
+
+/* tours style start */
+
+
+
+
+
+/* tours style end */
